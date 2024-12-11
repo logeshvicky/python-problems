@@ -24,13 +24,16 @@ Sample Output 1
 3
 
 solution:
+  
 method_1:
+  
 def minimumOfThree(a,b,c):
    mylst=[a,b,c] #store input in a list
    mylst.sort() # sort will ascending the element
    print(mylst[0])
   
 method_2:  
+
 def minimumOfThree(a,b,c):
   if(a<b and a<c):
     print(a)
